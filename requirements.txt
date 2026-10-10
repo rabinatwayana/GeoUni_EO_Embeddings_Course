@@ -1,0 +1,35 @@
+# Core
+numpy>=1.26,<3
+pandas>=2.2
+pyarrow>=16
+duckdb>=1.0
+geopandas>=1.0
+shapely>=2.0
+pyproj>=3.6
+rasterio>=1.4
+# ML
+scikit-learn>=1.5
+umap-learn>=0.5.6
+faiss-cpu>=1.8
+# EO access
+geotessera
+huggingface_hub>=0.24
+pystac-client>=0.8
+odc-stac>=0.3.10
+# Viz / notebooks
+matplotlib>=3.9
+folium>=0.17
+jupyterlab>=4.2
+ipywidgets>=8
+tqdm
+# Deep learning (notebooks 6 and 7); CPU builds are fine
+torch>=2.4
+torchvision
+transformers>=4.44
+sentencepiece
+protobuf
+pyyaml
+claymodel @ git+https://github.com/Clay-foundation/model.git
+# Course build tooling (optional for learners)
+jupytext
+nbconvert
